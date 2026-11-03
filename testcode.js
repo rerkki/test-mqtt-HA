@@ -2,7 +2,7 @@ const mqtt = require('mqtt');
 
 // Korvaa nämä omilla Home Assistant -tunnuksillasi
 const USERNAME = 'teacher';
-const PASSWORD = 'CrucialDeliriousBagfulEachGoldsmithAvengingPlus1Richly';
+const PASSWORD = 'CrucialXXXXX';
 
 // Brokerin osoite (WebSocket-yhteys vaatii wss://-etuliitteen)
 const brokerUrl = 'wss://iot-mqtt.aiot-garage.net';
