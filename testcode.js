@@ -22,7 +22,7 @@ client.on('connect', () => {
     console.log('Yhteys muodostettu onnistuneesti!');
 
     // Julkaistaan viesti julkiseen aiheeseen, johon kaikilla on oikeudet
-    const topic = '/users/teacher/xxxxx';
+    const topic = '/users/your_group_username/your_group_password';
     const message = 'hello world';
 
     client.publish(topic, message, { qos: 0 }, (err) => {
